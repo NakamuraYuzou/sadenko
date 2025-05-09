@@ -5,9 +5,9 @@ param (
 # ÉÅÅ[ÉãèÓïÒÇÃê›íË
 $smtpServer = "smtp.office365.com"
 $smtpPort = 587
-$username = "flowlites@sadenko.co.jp"
-$password = ConvertTo-SecureString "ED3sbpoqfcsY" -AsPlainText -Force
-$from = "flowlites@sadenko.co.jp"
+$username = "xxxxxxx@xxxxxxx.co.jp"
+$password = ConvertTo-SecureString "password" -AsPlainText -Force
+$from = "xxxxxxxx@xxxxxxx.co.jp"
 $to = $arg2
 $subject = Get-Content "C:\powershell\mailtext\title01.txt" -Encoding UTF8
 $array = Get-Content "C:\powershell\mailtext\body01.txt" -Encoding UTF8
